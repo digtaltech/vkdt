@@ -1,0 +1,52 @@
+{
+  "name": "vkminiappboilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://digtaltech.github.io/vkdt/",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build",
+	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "country-list": "^2.2.0",
+    "cross-env": "^5.2.0",
+    "gh-pages": "^2.1.1",
+    "random-useragent": "^0.3.1",
+    "react-hot-loader": "^4.12.11",
+    "react-scripts": "^2.1.8",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "@vkontakte/icons": "^1.8.2",
+    "@vkontakte/vk-connect": "^1.6.5",
+    "@vkontakte/vkui": "^2.28.1",
+    "@vkontakte/vkui-connect": "^1.5.4",
+    "@vkontakte/vkui-connect-promise": "^0.1.19",
+    "babel-eslint": "^9.0.0",
+    "chalk": "^2.4.2",
+    "core-js": "^2.6.9",
+    "material-ui": "^0.20.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-table": "^6.10.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "requirejs": "^2.3.6"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

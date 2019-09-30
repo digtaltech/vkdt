@@ -1,0 +1,87 @@
+.div-center {
+    display: table;
+    margin: 0 auto;
+}
+
+.div-center img {
+    width: 10rem;
+}
+
+.buttons-group {
+    display: flex;
+}
+
+.buttons-group button:first-child {
+    margin-right: 8px;
+}
+
+.text1{
+
+
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    line-height: 200px
+}
+.text_profile{
+//text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+
+}
+.text_profile1{
+//text-align: center;
+    color: #616161;
+
+    font-size: 1rem;
+    margin-top: 0.4rem;
+
+}
+.shared{
+    margin-bottom: 2rem;
+}
+
+.text_event{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.4rem;
+    color: white;
+
+}
+.text_event1{
+    text-align: center;
+    color: #fafafa;
+
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    padding-bottom: 10px;
+
+}
+
+.text_event3{
+    text-align: center;
+    color: rgb(111, 111, 111);
+
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    padding-bottom: 10px;
+
+}
+
+.peop {
+
+    margin-left: 55px;
+}
+
+.baton{
+    button: white;
+}
+
+
+a, div, img, p, button {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
